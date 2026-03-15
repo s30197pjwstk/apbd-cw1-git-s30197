@@ -20,6 +20,7 @@ Console.WriteLine("Sum = " + sum);
 
 double average = (double)sum / numbers.Length;
 Console.WriteLine("Average = " + CalculateAverage(numbers));
+Console.WriteLine("Max = " + CalculateMax(numbers));
 
 static double CalculateAverage(int[] values)
 {
@@ -29,4 +30,17 @@ static double CalculateAverage(int[] values)
         s = s + values[i];
     }
     return (double)s / values.Length;
+}
+
+static int CalculateMax(int[] values)
+{
+    int max = values[0];
+    for (int i = 1; i < values.Length; i++)
+    {
+        if (values[i] > max)
+        {
+            max = values[i];
+        }
+    }
+    return max;
 }
