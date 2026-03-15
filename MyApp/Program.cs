@@ -21,6 +21,7 @@ Console.WriteLine("Sum = " + sum);
 double average = (double)sum / numbers.Length;
 Console.WriteLine("Average = " + CalculateAverage(numbers));
 Console.WriteLine("Max = " + CalculateMax(numbers));
+Console.WriteLine("Min = " + CalculateMin(numbers));
 
 static double CalculateAverage(int[] values)
 {
