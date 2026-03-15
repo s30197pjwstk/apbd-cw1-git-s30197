@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Welcome to Statistics App!");
+﻿Console.WriteLine("Statistics Calculator v2");
 Console.WriteLine("Enter 5 numbers:");
 
 int[] numbers = new int[5];
