@@ -19,4 +19,14 @@ for (int i = 0; i < numbers.Length; i++)
 Console.WriteLine("Sum = " + sum);
 
 double average = (double)sum / numbers.Length;
-Console.WriteLine("Average = " + average);
+Console.WriteLine("Average = " + CalculateAverage(numbers));
+
+static double CalculateAverage(int[] values)
+{
+    int s = 0;
+    for (int i = 0; i < values.Length; i++)
+    {
+        s = s + values[i];
+    }
+    return (double)s / values.Length;
+}
