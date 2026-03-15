@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Number Analyzer");
+Console.WriteLine("Statistics Calculator v3");
 Console.WriteLine("Enter 5 numbers:");
 
 int[] numbers = new int[5];
