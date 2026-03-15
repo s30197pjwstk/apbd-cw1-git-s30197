@@ -17,3 +17,6 @@ for (int i = 0; i < numbers.Length; i++)
 }
 
 Console.WriteLine("Sum = " + sum);
+
+double average = (double)sum / numbers.Length;
+Console.WriteLine("Average = " + average);
